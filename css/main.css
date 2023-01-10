@@ -1,0 +1,48 @@
+
+.game{
+    color: rgb(255, 245, 58);
+    text-align: center;
+    background-color: rgb(5, 8, 51);
+    width: 350px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 12%;
+
+}
+.headd{
+    background-color: rgb(55, 48, 255);
+    padding: 5px 0;
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: x-large;
+    border-radius: 5px;
+}
+.m{
+margin-top: 20px;
+margin-bottom: 5px
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(54, 47, 241);
+    margin: 8px;
+    float: left;
+    border: rgb(201, 201, 201) 2px solid;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 9px;
+
+}
+.square:hover{
+    cursor: pointer;
+    background-color: rgb(5, 8, 51);
+}
+.result{
+    background-color: rgb(5, 8, 51);
+    padding: 5px 0;
+    margin-top: 5px ;
+    font-weight: 500;
+    font-size: x-large;
+    color:white ;
+}

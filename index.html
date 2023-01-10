@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" type="image/png" href="icon.JPG" >
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(5, 8, 51);">
+    <div class="game">
+        <div class="headd" id="h">
+            <span>XO</span> Game
+        </div>
+        <div class="m">
+            <div class="square" onclick="game(this.id)" id="item1"></div>
+            <div class="square" onclick="game(this.id)" id="item2"></div>
+            <div class="square" onclick="game(this.id)" id="item3"></div>
+
+            <div class="square" onclick="game(this.id)" id="item4"></div>
+            <div class="square" onclick="game(this.id)" id="item5"></div>
+            <div class="square" onclick="game(this.id)" id="item6"></div>
+            
+            <div class="square" onclick="game(this.id)" id="item7"></div>
+            <div class="square" onclick="game(this.id)" id="item8"></div>
+            <div class="square" onclick="game(this.id)" id="item9"></div>
+        </div>
+
+        <div class="result" id="res"> </div>
+        <button class="btn btn-outline-warning mt-5" onclick="newgame()">new game</button>
+    </div>
+    <footer class="bg-dark text-center text-white mt-5">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-white" href="https://github.com/iamMalekAmin">Malek Amin</a>
+        </div>
+      </footer>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>
